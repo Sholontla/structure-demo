@@ -30,13 +30,17 @@ all the structure is been tidy by the next order:
       localhost:6000/security-ws/security/obfuscation
       Swagger:
         True
-        
+      Docker:
+        PostgreSql 
+     
   5. secure-vault-demo
       service API manage all the sensitive data.
     port:
       manage by Eureka server
     Swagger:
       True
+    Docker:
+        MongoDB 
    
    
  ***** AS PART OF CHANGE & TEST THIS COMPLMENTS ARE STILL ON DEVELOP *************************
