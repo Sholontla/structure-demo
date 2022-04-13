@@ -13,10 +13,10 @@
   <a href="https://github.com/Sholontla">
   </a>
 
-<h3 align="center">project_title</h3>
+<h3 align="center">Structure Demo Spring</h3>
 
   <p align="center">
-    project_description
+   This Structure Demo is use for testing and demostration to understad the full Demo Structure please visit the diagram: https://github.com/Sholontla/structure-demo-configurations/blob/main/diagram-demo.pdf
     <br />
     <a href="https://github.com/github_username/repo_name"><strong>Explore the docs »</strong></a>
     <br />
