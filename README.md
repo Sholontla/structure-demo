@@ -47,33 +47,65 @@
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
-Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `github_username`, `repo_name`, `twitter_handle`, `linkedin_username`, `email_client`, `email`, `project_title`, `project_description`
+The Main Project is structure, and the GateWay, Eueraka Server and main Api's are buld on Java and Spring.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 ### Built With
 
-* Java
+* Java 
 * Spring 
-* Python
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
-
 <!-- GETTING STARTED -->
-## Getting Started
+## Services:
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+1. Config Server:
+  * First service to run.
+  * This service is Cloud Native connections
+
+2. Eureka Discovery Server:
+  * Second service to run.
+  * Eureka Discovery Servers
+
+3. Spring GateWay:
+  * Third service to run.
+  * manage port services assign by Eureka Spring Server
+  * port: 6000
+
+4. Security Service:
+  * Fourth service to run.
+  * AES Encryption / Obfuscation service
+  * port: manage by Eureka Server
+
+5. configuration Data Base:
+  * Fifth service to run.
+  * Configuration of Databases
+  * Data Base: Postgre Sql
+  * port: manage by Eureka Server
+
+6. Secre Vault Demo:
+  * Sixth service to run.
+  * Keep Secure and confidentail data
+  * Data Base: Mongo DB
+  * port: manage by Eureka Server
+
+7. Demo Async:
+  * Seventh service to run.
+  * Comparing time Async and Sync
+  * Data Base: Local
+  * port: manage by Eureka Server
 
 ### Prerequisites
+Virtualization / Containers
+* Docker
+* Docker - Compose
 
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-  ```sh
-  npm install npm@latest -g
-  ```
+O/I
+* Windows
+* Linux
 
 ### Installation
 
