@@ -158,7 +158,7 @@ For testing and demostrations purposes.
 
 Gerardo Ruiz Bustani - solbustani@gmail.com - 442 488 6193 
 
-Project Link: [https://github.com/Sholontla](https://github.com/github_username/repo_name)
+Project Link: [https://github.com/Sholontla](https://github.com/Sholontla/structure-demo)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
