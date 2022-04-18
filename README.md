@@ -98,6 +98,25 @@ The Main Project is structure, and the GateWay, Eueraka Server and main Api's ar
   * Data Base: Local
   * port: manage by Eureka Server
 
+
+### Endpoints ans Swagger
+
+localhost:6000/security-ws/security
+localhost:6000/security-ws/security/login
+localhost:6000/security-ws/security/status/check
+localhost:6000/security-ws/security/encryption
+localhost:6000/security-ws/security/obfuscation
+localhost:6000/security-ws/security/{id}
+
+localhost:6000/async/test/status/check
+localhost:6000/async/test/data
+localhost:6000/async/test/data/async
+
+localhost:6000/security-ws/security/actuator/
+localhost:6000/security-ws/actuator/circuitbreakerevents
+
+The Swagger UI can be seen at http://localhost:[port manage by Eureka Server]/swagger-ui/index.html
+
 ### Prerequisites
 Virtualization / Containers
 * Docker
