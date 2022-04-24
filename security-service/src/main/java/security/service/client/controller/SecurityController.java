@@ -17,6 +17,7 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.RequestParam;
 
 import lombok.extern.slf4j.Slf4j;
 import security.service.client.data.DataEntity;
@@ -35,7 +36,9 @@ import security.service.client.ui.model.UserResponseModel;
 public class SecurityController {
 	
 	@Autowired
-    private SecurityServiceImpl serviceImpl;
+	DataRepository dataRpository;
+	@Autowired
+    	private SecurityServiceImpl serviceImpl;
 	
 	@Autowired
 	private Environment env;
@@ -110,5 +113,9 @@ public class SecurityController {
         return data; 
     }
     
+    @GetMapping(value="/group", produces = {MediaType.APPLICATION_JSON,  MediaType.APPLICATION_XML})
+    public ResponseEntity<List<DataEntity>> getByGropus(@RequestParam Integer group){
+    	return new ResponseEntity<>(dataRpository.findByGroup(group), HttpStatus.OK);
+    }
     
 }
