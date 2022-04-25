@@ -75,24 +75,20 @@ The Main Project is structure, and the GateWay, Eueraka Server and main Api's ar
 4. Security Service:
   * Fourth service to run.
   * AES Encryption / Obfuscation service
+  * Data filter by group
+  * Data Base: Postgre Sql
   * port: manage by Eureka Server
 
 5. configuration Data Base:
   * Fifth service to run.
   * Configuration of Databases
-  * Data Base: Postgre Sql
+  * Data Base: Local
   * port: manage by Eureka Server
 
 6. Secre Vault Demo:
   * Sixth service to run.
   * Keep Secure and confidentail data
   * Data Base: Mongo DB
-  * port: manage by Eureka Server
-
-7. Secure vault Demo:
-  * Seventh service to run.
-  * Secure Vault Demo for senitive data
-  * Data Base: Local
   * port: manage by Eureka Server
 
 
@@ -105,11 +101,8 @@ localhost:6000/security-ws/security/encryption
 localhost:6000/security-ws/security/obfuscation
 localhost:6000/security-ws/security/{id}
 localhost:6000/security-ws/security/group?group=(select group: 0,1,2,3,4,5,6,7,8,9)
-localhost:6000/async/test/status/check
-localhost:6000/async/test/data
-localhost:6000/async/test/data/async
 
-localhost:6000/security-ws/security/actuator/
+localhost:6000/security-ws/security/actuator/**
 localhost:6000/security-ws/actuator/circuitbreakerevents
 
 The Swagger UI can be seen at http://localhost:[port manage by Eureka Server]/swagger-ui/index.html
