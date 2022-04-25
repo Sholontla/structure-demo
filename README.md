@@ -93,38 +93,18 @@ The Main Project is structure, and the GateWay, Eueraka Server and main Api's ar
 
 
 ### Endpoints and Swagger
-<details>
-  <summary>Project Structure</summary>
-  <ol>
-    <li>
-      <a href="#about-the-project">Structure</a>
-    </li>
-    <li>
-      <a href="#getting-started">Getting Started</a>
-      <ul>
-        <li>localhost:6000/security-ws/security</a></li>
-        <li>localhost:6000/security-ws/security/login</a></li>
-      </ul>
-    </li>
-    <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li>
-    <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgments">Acknowledgments</a></li>
-  </ol>
-</details>
 
-localhost:6000/security-ws/security/status/check
-localhost:6000/security-ws/security/encryption
-localhost:6000/security-ws/security/obfuscation
-localhost:6000/security-ws/security/{id}
-localhost:6000/security-ws/security/group?group=(select group: 0,1,2,3,4,5,6,7,8,9)
+* localhost:6000/security-ws/security
+* localhost:6000/security-ws/security/login
+* localhost:6000/security-ws/security/status/check
+* localhost:6000/security-ws/security/encryption
+* localhost:6000/security-ws/security/obfuscation
+* localhost:6000/security-ws/security/{id}
+* localhost:6000/security-ws/security/group?group=(select group: 0,1,2,3,4,5,6,7,8,9)
+* localhost:6000/security-ws/security/actuator/**
+* localhost:6000/security-ws/actuator/circuitbreakerevents
+* The Swagger UI can be seen at http://localhost:[port manage by Eureka Server]/swagger-ui/index.html
 
-localhost:6000/security-ws/security/actuator/**
-localhost:6000/security-ws/actuator/circuitbreakerevents
-
-The Swagger UI can be seen at http://localhost:[port manage by Eureka Server]/swagger-ui/index.html
 
 ### Prerequisites
 Virtualization / Containers
