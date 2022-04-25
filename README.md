@@ -107,7 +107,7 @@ localhost:6000/security-ws/security/status/check
 localhost:6000/security-ws/security/encryption
 localhost:6000/security-ws/security/obfuscation
 localhost:6000/security-ws/security/{id}
-
+localhost:6000/security-ws/security/group?group=(select group: 0,1,2,3,4,5,6,7,8,9)
 localhost:6000/async/test/status/check
 localhost:6000/async/test/data
 localhost:6000/async/test/data/async
