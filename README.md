@@ -92,10 +92,29 @@ The Main Project is structure, and the GateWay, Eueraka Server and main Api's ar
   * port: manage by Eureka Server
 
 
-### Endpoints ans Swagger
+### Endpoints and Swagger
+<details>
+  <summary>Project Structure</summary>
+  <ol>
+    <li>
+      <a href="#about-the-project">Structure</a>
+    </li>
+    <li>
+      <a href="#getting-started">Getting Started</a>
+      <ul>
+        <li>localhost:6000/security-ws/security</a></li>
+        <li>localhost:6000/security-ws/security/login</a></li>
+      </ul>
+    </li>
+    <li><a href="#usage">Usage</a></li>
+    <li><a href="#roadmap">Roadmap</a></li>
+    <li><a href="#contributing">Contributing</a></li>
+    <li><a href="#license">License</a></li>
+    <li><a href="#contact">Contact</a></li>
+    <li><a href="#acknowledgments">Acknowledgments</a></li>
+  </ol>
+</details>
 
-localhost:6000/security-ws/security
-localhost:6000/security-ws/security/login
 localhost:6000/security-ws/security/status/check
 localhost:6000/security-ws/security/encryption
 localhost:6000/security-ws/security/obfuscation
