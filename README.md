@@ -18,8 +18,6 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
-
 The Main Project is structure, and the GateWay, Eueraka Server and main Api's are buld on Java and Spring.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
