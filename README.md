@@ -59,7 +59,7 @@ The Main Project is structure, and the GateWay, Eueraka Server and main Api's ar
   * Data Base: Local
   * port: manage by Eureka Server
 
-6. Secre Vault Demo:
+6. Secure Vault Demo:
   * Sixth service to run.
   * Keep Secure and confidentail data
   * Data Base: Mongo DB
@@ -77,7 +77,13 @@ The Main Project is structure, and the GateWay, Eueraka Server and main Api's ar
 * localhost:6000/security-ws/security/group?group=(select group: 0,1,2,3,4,5,6,7,8,9)
 * localhost:6000/security-ws/security/actuator/**
 * localhost:6000/security-ws/actuator/circuitbreakerevents
-* The Swagger UI can be seen at http://localhost:[port manage by Eureka Server]/swagger-ui/index.html
+* 
+* To see the Swagger of: secure-vault-demo
+* on Eureka Server the assign ports with out any "http client" go to: localhost:8000 and select the "SECURE-VAULT-DEMO-WS" service.
+* change default route and enter:
+* http://localhost:[port manage by Eureka Server]/swagger-ui/index.html
+
+
 
 
 ### Prerequisites
